@@ -1,0 +1,9 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: project
+  namespace: argocd
+spec:
+  description: project
+  sourceRepos:
+    - 'https://github.com/repo/goeshere'

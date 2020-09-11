@@ -1,0 +1,5 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+  - cluster-role-bindings.yaml
